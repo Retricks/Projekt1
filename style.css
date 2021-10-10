@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.film{
+	width: 300px;
+	height: 440px;
+	box-shadow: 0px 0px 10px 2px #E2E1E1;
+	border-radius: 12px;
+	margin: 25px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.background{
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-origin: border-box;
+	width: 100%;
+	height: 165px;
+	border-radius: 12px 12px 0 0;
+}
+.bck1{
+	background-image: url("images/1.jpg");
+}
+.bck2{
+	background-image: url("images/2.jpg");
+}
+.bck3{
+	background-image: url("images/3.jpg");
+}
+.bck4{
+	background-image: url("images/4.jpg");
+}
+.info{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+	width: 100%;
+	height: 270px;
+	position: relative;
+}
+.name{
+	color: #34495e;
+}
+
+.stars{
+	display: flex;
+	flex-direction: row;
+	padding: 5px;
+}
+
+.star{
+	width: 15px;
+	height: 15px;
+	padding: 1px;
+}
+.description{
+	margin: 10px;
+	text-align: center;
+	color: #7f8c8d;
+	overflow: hidden;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+.more{
+	background: #c0392b;
+	text-decoration: none;
+	border-radius: 40px;
+    width: 240px;
+    padding: 10px 0 10px 0;
+	display: block;
+}
+.more p{
+	text-align: center;
+	color: #ecf0f1;
+	font-weight: 400;
+}
