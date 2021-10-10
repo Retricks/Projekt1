@@ -85,9 +85,13 @@ body{
     width: 240px;
     padding: 10px 0 10px 0;
 	display: block;
-}
-.more p{
+	transition: 0.5s transform;
 	text-align: center;
 	color: #ecf0f1;
 	font-weight: 400;
+}
+.more:hover{
+	transform: scale(1.1) rotate(3deg);
+	background: #ecf0f1;
+	color: #c0392b;
 }
